@@ -1,0 +1,11 @@
+[ ] 1. Identify what you're implementing today
+[ ] 2. Write the file header comment (see file_template.txt)
+[ ] 3. Write the function signature before any logic
+[ ] 4. Implement brute force / naive solution first
+[ ] 5. Add time + space complexity comments above it
+[ ] 6. Optimize if applicable (better algorithm)
+[ ] 7. Add complexity comments above optimized version
+[ ] 8. Write a main() to test it with at least 2 examples
+[ ] 9. Compile and run it — verify output is correct
+[ ] 10. Save to the right folder in cpp-dsa-library
+[ ] 11. Commit to GitHub with a clear commit message

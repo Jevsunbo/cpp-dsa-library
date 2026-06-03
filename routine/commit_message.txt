@@ -1,0 +1,6 @@
+Add [problem name] — [what you implemented]
+
+Examples:
+Add prefix sum — build array + range query
+Add two sum — brute force + HashMap optimization
+Add move zeroes — two pointer in-place solution
