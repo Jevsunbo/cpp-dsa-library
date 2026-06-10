@@ -25,5 +25,13 @@ Used for maximum subarray problems.
 
 ### Two Pointers
 Use two indices moving toward each other or at different speeds.
+
+**Slow/Fast variant:**
+Slow tracks the next valid position. Fast scans ahead looking for
+valid elements. Use when rearranging in-place while keeping order.
 - Move Zeroes #283
+
+**Left/Right variant:**
+Start one pointer at each end and move them toward each other.
+Use on sorted arrays when looking for a pair or comparing ends.
 - Squares of a Sorted Array #977
