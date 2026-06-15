@@ -35,3 +35,21 @@ valid elements. Use when rearranging in-place while keeping order.
 Start one pointer at each end and move them toward each other.
 Use on sorted arrays when looking for a pair or comparing ends.
 - Squares of a Sorted Array #977
+
+## HashMap Patterns
+
+### Frequency Counter
+Use an unordered_map<int, int> to count how many times 
+each element appears. Loop through array, increment 
+map[element] for each element seen.
+
+Time:  O(n) — one pass
+Space: O(n) — up to n unique keys
+
+Use when: counting occurrences, finding duplicates, 
+checking anagrams, grouping elements
+
+Problems:
+- frequency_counter.cpp (custom implementation)
+- Valid Anagram #242
+- Contains Duplicate #217
