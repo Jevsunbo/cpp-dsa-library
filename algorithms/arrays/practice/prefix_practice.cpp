@@ -15,7 +15,7 @@ void print_prefix(vector<int>& prefix){
   cout << prefix[i];
   if(i < prefix.size()-1){
     cout << ", ";}
-  cout << "}" << endl;
+  cout << "}" << endl;}
 }
 
 
